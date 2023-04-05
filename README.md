@@ -26,3 +26,17 @@ Use "calculate_vocab.py" script to compute the size of the vocabulary for GreekS
 The purpose of the script called "novel_ngrams_predictions.py" is to determine the percentage of novel n-grams that are introduced by the machine-generated summaries in comparison to the reference summaries. </br>
 
 Finally, the script "statistics.py" is utilized to obtain various statistics about the GreekSUM Title and the GreekSUM Abstract. These include the length of the articles and reference summaries, as well as the percentage of n-gram sequences found in the reference summaries but not in the article body.
+
+
+If you use the code, you can cite the following paper:
+
+```
+@misc{evdaimon2023greekbart,
+      title={GreekBART: The First Pretrained Greek Sequence-to-Sequence Model}, 
+      author={Iakovos Evdaimon and Hadi Abdine and Christos Xypolopoulos and Stamatis Outsios and Michalis Vazirgiannis and Giorgos Stamou},
+      year={2023},
+      eprint={2304.00869},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
